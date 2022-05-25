@@ -8,7 +8,6 @@ import logging
 import collections
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.ERROR)
 
 
 class SpamFilter:
