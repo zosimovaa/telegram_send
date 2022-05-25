@@ -11,8 +11,8 @@ import threading
 
 from .spam_filter import SpamFilter
 
-logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.ERROR)
+logger = logging.getLogger(__name__)
 
 
 class TelegramJustSend(threading.Thread):
